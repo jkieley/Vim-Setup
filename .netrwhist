@@ -1,5 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
-let g:netrw_dirhist_1='/Users/ukielja/git/moxie'
-let g:netrw_dirhist_2='/Users/ukielja/git/moxie/web-app'
-let g:netrw_dirhist_3='/Users/ukielja/git/moxie'
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/ukielja/.vim/bundle/command-t/ruby/command-t'
+let g:netrw_dirhist_2='/Users/ukielja/.vim/bundle/command-t/ruby'
+let g:netrw_dirhist_3='/Users/ukielja/.vim/bundle/command-t'
+let g:netrw_dirhist_4='/Users/ukielja/.vim/bundle'
+let g:netrw_dirhist_5='/Users/ukielja/.vim'
+let g:netrw_dirhist_6='/Users/ukielja'
+let g:netrw_dirhist_7='/Users'
+let g:netrw_dirhist_8='/'
+let g:netrw_dirhist_9='/Users/ukielja/svn/sm/applet/successmaker/src/main/webapp/js/student/handler/reading'

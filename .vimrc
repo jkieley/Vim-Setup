@@ -16,6 +16,15 @@ call vundle#begin()
     Plugin 'altercation/vim-colors-solarized'
     Plugin 'bling/vim-airline' " status bar 
 call vundle#end()            " required
+    " Brief help
+    " :PluginList       - lists configured plugins
+    " :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
+    " :PluginSearch foo - searches for foo; append `!` to refresh local cache
+    " :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+    "
+    " see :h vundle for more details or wiki for FAQ
+    " Put your non-Plugin stuff after this line
+ 
 filetype plugin indent on    " required
 syntax on
 set nu
@@ -26,13 +35,12 @@ map <C-k> <esc>:Ex<Enter>
 command! -range=% FormatXML <line1>,<line2>call DoFormatXML()
 vmap <C-x> :!pbcopy<CR>  
 vmap <C-c> :w !pbcopy<CR><CR> 
+
 " give access to system keyboard
 set clipboard=unnamed
 
 " tab settings
 set switchbuf=usetab
-map <C-]> :tabn<CR>
-map <C-[> :tabp<CR>
 map <C-n> :tabnew<CR>
 
 " set solarized theme
@@ -44,15 +52,6 @@ colorscheme solarized
 set tabstop=4
 set shiftwidth=4
 set expandtab
-
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
 
 " Plugin 'bling/vim-airline' " status bar settings
 set laststatus=2
